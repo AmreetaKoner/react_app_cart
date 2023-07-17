@@ -1,0 +1,24 @@
+.Cart {
+    background-color: #b7dcfd;
+    margin: 24px;
+    padding: 24px;
+}
+
+.Cart_Header {
+    color: rgb(28, 103, 153);
+    padding: 24px;
+    margin:0px;
+    text-align: center;
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Cart {
+        margin: 0;
+    }
+
+    .Cart_Header {
+        font-size: 32px;
+        padding: 12px;
+    }
+}

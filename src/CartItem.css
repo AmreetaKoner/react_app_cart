@@ -1,0 +1,38 @@
+.CartItem {
+    background-color: white;
+    padding: 24px 24px;
+    border: 2px solid white;
+    margin:10px;
+}
+
+.CartItem_ItemImage {
+    height:150px;
+    padding: 24px 0px;
+}
+
+.CartItem_Price {
+    margin:0;
+    text-align: end;
+    font-size: 24px;
+    color: rgb(9, 144, 99);
+}
+
+.CartItem_Title {
+    font-size: 32px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .CartItem {
+        padding: 10px 10px;
+    }
+
+    .CartItem_Title {
+        font-size: 20px;
+    }
+
+    .CartItem_Price {
+        text-align: start;
+        font-size: 16px;
+    }
+  }
